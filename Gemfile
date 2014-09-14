@@ -5,6 +5,8 @@ ruby '2.1.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.1.6'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 
  gem 'therubyracer',  platforms: :ruby
