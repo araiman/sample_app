@@ -1,11 +1,10 @@
 require 'spec_helper'
 
 describe "Static pages" do
-	seubject{ page }
+	subject{ page }
 	describe "Home page" do
 
 		before { visit root_path}
-		it { should have the content ('Sample App') }
 
 		it{ should have_title("Ruby on Rails Tutorial Sample App") }
 	end
